@@ -18,7 +18,7 @@ I want to use the portfolio website to present my career ambition, technical and
 3. The My projects (projects.html) contains 5 of my previous data analytics projects and links to Github. I also inclued one screenshot per project to make readers can easily understand the projects.
 4. Finally the conact me(contact.html) contains the form to submit the message, and also include the personal contact details.
 5. Here is the screenshot of the projects page:
-![alt text](https://github.com/haden-liu/Hang-Liu_T1A2/tree/main/img/readme_screenshot.PNG "Screenshot 1")
+![image](https://github.com/haden-liu/Hang-Liu_T1A2/tree/main/img/readme_screenshot.PNG)
 
 
 
