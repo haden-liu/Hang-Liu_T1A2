@@ -17,6 +17,8 @@ The portfolio contains 4 HTML pages. The home page (index.html) is used as the h
 The About me (about.html) contains the brief personal introduction, list of my skills and links to my Resume, Linkedin and Github.
 The My projects (projects.html) contains 5 of my previous data analytics projects and links to Github. I also inclued one screenshot per project to make readers can easily understand the projects.
 Finally the conact me(contact.html) contains the form to submit the message, and also include the personal contact details.
+Here is the screenshot of the projects page:
+![alt text](https://github.com/haden-liu/Hang-Liu_T1A2/tree/main/img/readme_screenshot.PNG "Screenshot 1")
 
 
 
