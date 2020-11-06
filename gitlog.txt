@@ -1,0 +1,17 @@
+commit 940b20882c89cc8727e804e2fc1d4e37aadebb73
+Author: Haden Liu <haden.liu30@gmail.com>
+Date:   Thu Nov 5 10:23:03 2020 +1100
+
+    add contact
+
+commit c079780962aa7be0be68be7fa528e540bb716bfa
+Author: Haden Liu <haden.liu30@gmail.com>
+Date:   Thu Nov 5 10:08:23 2020 +1100
+
+    first attempt
+
+commit d62fc31c0859c1b3aec595ff6270d123d5267fb0
+Author: haden-liu <53278397+haden-liu@users.noreply.github.com>
+Date:   Mon Nov 2 11:35:58 2020 +1100
+
+    Initial commit

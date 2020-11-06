@@ -11,11 +11,24 @@ body {
     color: #333;
     text-align: center;
 }
+.btn {
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: 400;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    background: linear-gradient(to bottom left, #f47a65, #ff4f64);
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    min-width: 140px;
+    color: #fff;
+}
 
 /* Global Styles */
 .container {
     width: 80%;
     margin: 0 auto;
+    font-weight: bold;
 }
 .clr {
     clear: both;
@@ -37,12 +50,13 @@ header {
 }
 header .brand {
     float: left;
-    padding: 10px 0;
+    padding: 10px;
     font-size: 2rem;
+    font-weight: bold;
 }
 header nav {
     float: right;
-    padding: 20px 0;
+    padding: 20px;
 }
 header nav ul {
     list-style: none;
@@ -62,7 +76,7 @@ header nav ul li a:hover {
 
 /* Showcase Section */
 #showcase {
-    background-image: url('../images/banner.jpg');
+    background-image: url('./img/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,36 +112,8 @@ header nav ul li a:hover {
     font-size: 1.5rem;
 }
 
-/* Subscribe Section */
-#subscribe {
-    background: #e8491d;
-    color: #35424a;
-    padding: 35px 0;
-    z-index: 1;
-}
-#subscribe h3 {
-    font-size: 1.3rem;
-    float: left;
-    text-align: center;
-    width: 50%;
-}
-#subscribe form {
-    display: inline;
-}
-#subscribe form input[type='email'] {
-    height: 35px;
-    width: 30%;
-}
-#subscribe form input[type='submit'] {
-    background: #35424a;
-    height: 35px;
-    border: none;
-    color: #e8491d;
-    padding: 5px 30px;
-    cursor: pointer;
-}
 
-/* Services Section */
+/* Project image Section */
 .box {
     width: 30%;
     float: left;
@@ -136,6 +122,10 @@ header nav ul li a:hover {
 .box img {
     width: 100%;
     height: 200px;
+}
+.services img {
+    width: 125%;
+    height: 250px;
 }
 .box h2 {
     padding: 20px 0;
@@ -149,9 +139,12 @@ footer {
     background: #191f22;
     color: #fff;
     padding: 15px 0;
+    text-align: center;
+    font-size: bold;
+
 }
 
-/* About Page Styles */
+/* About page Styles */
 .about {
     margin-top: 100px;
     padding: 50px 30px
@@ -160,11 +153,13 @@ footer {
     float: left;
     width: 70%;
     text-align: left;
+    font-weight: bold;
 }
 .about .left img {
     width: 80%;
     margin: auto;
     text-align: center;
+    
 }
 .w-box {
     width: 90%;
@@ -217,7 +212,7 @@ footer {
 /* Contact Page Styles */
 .contact {
     margin-top: 100px;
-    padding: 50px 30px
+    padding: 50px 30px;
 }
 .contact .left {
     float: left;
@@ -235,6 +230,8 @@ footer {
     padding: 20px;
     margin: auto;
     text-align: left;
+ 
+    
 }
 .contact .right p {
     padding: 10px 0;
