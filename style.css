@@ -252,6 +252,17 @@ footer {
     border: none;
 }
 
+/* project blogs style */
+
+.img-container{
+    max-width: 600px;
+}
+
+img{
+    width: 100%
+}
+
+
 /* Media Query Styles */
 @media(max-width:800px) {
     body {
