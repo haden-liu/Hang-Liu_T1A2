@@ -112,8 +112,32 @@ header nav ul li a:hover {
     font-size: 1.5rem;
 }
 
+/*about page image section using css grid */
+.grid {
+    display: grid;
+    grid-template-columns: 575px 575px 575px;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+}
+.grid > div {
+    width: 30%;
+    float: left;
+    margin: 80px 10px;
+}
+.grid > div > img {
+    width: 125%;
+    height: 185px;
+}
+.grid > div > h2 {
+    padding: 20px 0; 
+    text-align: center;
+}
+.grid > div > p {
+    font-size: 1rem;
+    text-align: center;
+}
 
-/* Project image Section */
+/* About image Section */
 .box {
     width: 30%;
     float: left;
